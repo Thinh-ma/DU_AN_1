@@ -11,6 +11,7 @@ class Home extends BaseView
 ?>
 
         <h1>Home Client</h1>
+        <h1>hello phuc thinh</h1>
 <?php
     }
 }

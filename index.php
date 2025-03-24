@@ -31,7 +31,8 @@ Route::get('/cart', 'App\Controllers\Client\CartController@index');
 //trang bài viết
 Route::get('/post', 'App\Controllers\Client\PostController@index');
 
-
+// login cient
+Route::get('/login', 'App\Controllers\Client\AuthController@index');
 // *** Admin
 
 Route::get('/admin', 'App\Controllers\Admin\HomeController@index');

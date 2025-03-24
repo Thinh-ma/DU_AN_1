@@ -20,7 +20,16 @@ require_once 'config.php';
 // *** Client
 Route::get('/', 'App\Controllers\Client\HomeController@index');
 Route::get('/products', 'App\Controllers\Client\ProductController@index');
-Route::get('/products/{id}', 'App\Controllers\Client\ProductController@detail');
+Route::get('/productsDeatail', 'App\Controllers\Client\ProductController@detail');
+Route::get('/productsCategory', 'App\Controllers\Client\ProductController@category');
+Route::get('/productsCheckout', 'App\Controllers\Client\ProductController@checkout');
+
+// trang giỏ hàng
+Route::get('/cart', 'App\Controllers\Client\CartController@index');
+
+
+//trang bài viết
+Route::get('/post', 'App\Controllers\Client\PostController@index');
 
 
 // *** Admin

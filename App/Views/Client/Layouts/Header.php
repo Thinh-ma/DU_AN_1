@@ -69,7 +69,7 @@ class Header extends BaseView
 								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
 								 aria-expanded="false">Shop</a>
 								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="productsCategory">Shop Category</a></li>
+									<li class="nav-item"><a class="nav-link" href="productsCategory">Sản </a></li>
 									<li class="nav-item"><a class="nav-link" href="productsDeatail">Product Details</a></li>
 									<li class="nav-item"><a class="nav-link" href="productsCheckout">Product Checkout</a></li>
 									<li class="nav-item"><a class="nav-link" href="cart">Shopping Cart</a></li>
